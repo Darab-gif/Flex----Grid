@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+}
+
+.home {
+  margin: 140px 0px 0px 280px;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "header header  right"
+    "menu main main"
+    "menu footer footer";
+  width: 50%;
+}
+
+.red {
+  height: 100px;
+  background-color: red;
+  grid-area: header;
+}
+
+.yellow {
+  height: 100px;
+  grid-area: right;
+  background-color: yellow;
+}
+.green {
+  height: 209px;
+  background-color: green;
+  grid-area: menu;
+}
+
+.blue1 {
+  height: 100px;
+  background-color: blue;
+  grid-area: main;
+}
+.blue2 {
+  height: 100px;
+  background-color: blue;
+  grid-area: footer;
+}

@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.home {
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+  margin-left: 160px;
+}
+
+.sedans {
+  height: 30rem;
+  width: 20rem;
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sedans img {
+  margin: 25px 0px 0px 25px;
+}
+
+.sedans h1 {
+  margin: 35px 0px 0px 25px;
+}
+
+.sedans p {
+  margin: 40px 0px 0px 25px;
+  line-height: 30px;
+}
+
+.sedans button {
+  padding: 10px;
+  width: 110px;
+  margin: 60px 0px 0px 25px;
+  border-radius: 20px;
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  cursor: pointer;
+}
+
+.sedans button:hover {
+  opacity: 0.8;
+}
+
+.suvs {
+  height: 30rem;
+  width: 20rem;
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.suvs img {
+  margin: 25px 0px 0px 25px;
+}
+
+.suvs h1 {
+  margin: 35px 0px 0px 25px;
+}
+
+.suvs p {
+  margin: 40px 0px 0px 25px;
+  line-height: 30px;
+}
+
+.suvs button {
+  padding: 10px;
+  width: 110px;
+  margin: 60px 0px 0px 25px;
+  border-radius: 20px;
+  color: hsl(184, 100%, 22%);
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  cursor: pointer;
+}
+
+.suvs button:hover {
+  opacity: 0.8;
+}
+
+.luxury {
+  height: 30rem;
+  width: 20rem;
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.luxury img {
+  margin: 25px 0px 0px 25px;
+}
+
+.luxury h1 {
+  margin: 35px 0px 0px 25px;
+}
+
+.luxury p {
+  margin: 40px 0px 0px 25px;
+  line-height: 30px;
+}
+
+.luxury button {
+  padding: 10px;
+  width: 110px;
+  margin: 60px 0px 0px 25px;
+  border-radius: 20px;
+  color: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  cursor: pointer;
+}
+
+.luxury button:hover {
+  opacity: 0.8;
+}
+
+.gridBtn a {
+  padding: 20px;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  box-shadow: 0px 10px 15px 0px #d9d9d9;
+  right: 40px;
+  top: 50%;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+}
